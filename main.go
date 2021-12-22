@@ -49,7 +49,7 @@ func main() {
 	bc.Data = []float64{}
 	bc.Labels = []string{"< 1.90", "1.90 - 1.94", "1.94 - 1.98", "1.98 - 2.02", "> 2.02"}
 	bc.Title = "Multi-armed bandit. X-Axis: reward, Y-Axis: Average number of views."
-	bc.SetRect(5, 0, 111, height)
+	bc.SetRect(5, 5, 111, height)
 	bc.BarWidth = 20
 	bc.LabelStyles = []ui.Style{
 		ui.NewStyle(ui.ColorRed),
